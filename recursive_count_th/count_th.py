@@ -24,7 +24,7 @@ def count_th(word, count=0):
 # and start the count_th function by decreasing words's first index to start from [1]
     elif (word[0: 2] == 'th'):
         count += 1
-        return count_th(word[1:], count)
+        return count_th(word[2:], count)
 
 # Else start the count_th function by decreasing word's first index to start from [1]
     else:
